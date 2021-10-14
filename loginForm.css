@@ -1,0 +1,150 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom right, #005c99,#00804d);
+}
+
+.header{
+    width:100%;
+    padding-left: -30px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width:65%;
+    margin:15px auto;
+    background-color: #232734;
+    padding:25px 15px;
+    border:solid;
+    border-color:silver;
+    border-width:2px;
+
+}
+
+.content{
+   width:70%;   
+}
+
+h2 {
+    color:#FFF;
+    font-weight:500;
+    margin-bottom:55px;
+    opacity: 0.7;
+    font-size:35;
+}
+
+form{
+    margin:0px -15px;
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: nowrap;
+    width:139%;       
+    height:55px;
+    background-image: linear-gradient(to right, #33344C,#232734 );
+    border-bottom: 1px solid #414141;
+    margin-bottom:15px;
+    /* border:solid; */
+}
+
+
+
+.NameMessage{
+    display: flex;
+  
+    flex-direction: column;
+    margin:-10px;
+  
+}
+
+.phone-group{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF;
+    font-size:25px;
+    padding-right:35px;
+    padding-left:35px;
+    width:150px;
+}
+
+.dash{
+    width:auto;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.phonenum{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+#message0{
+    padding-left:40%;
+}
+
+#message, #message0, #message1, #message2, #message3, #NameMessage1, #NameMessage2,#NameMessage3,#NameMessage4{
+    color:yellow;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:20px;
+}
+
+#message3{
+    padding-left:2px;
+}
+
+#message1{
+margin-top:20px;
+
+}
+
+
+#message2,#message3{
+    margin-top:20px;
+    
+    }
+#submit{
+    margin-left:60%;
+    padding:2%;
+    background-image:linear-gradient(45deg,#ccfff2,#ffcc66);
+    font-size:30px;
+    color:#00264d;
+    border-color:white;
+    border-width:5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+
+ .input-field {
+    width:100%;
+    display: flex;
+    background:none;
+    border:solid;
+    border-width: 0.5px;
+    font-size: 20px;
+    padding: 10px;
+    color:#FFF;
+ }
+
+
+ .phone-group:last-of-type{
+    border-left:none;
+  }
+
+  .phone-group:first-of-type{
+    border-right:none;
+    
+  }

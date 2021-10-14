@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="otpValidation.css">
+    <title>Validate OTP</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>OTP Page</h2>
+            <p id="message"></p>
+        </div>
+        <div class="content">
+            <form name="otpForm" id="otpForm" action="LoginSuccessful.html" onSubmit="return validateOTP()">
+                <label for="otp">OTP</label>: <input type="text" name="otp" maxlength="4" id="otp">
+                <p id="message"></p>
+                <input type="submit" value="Submit" id='submit'>
+            </form>
+        </div>
+
+        <script src="otpValidation.js"></script>
+
+    </div>
+</body>
+</head>
+
+</html>
